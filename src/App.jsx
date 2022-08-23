@@ -3,7 +3,7 @@ import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
 import Top from './Components/Top_devs/Top'
-import Dev_Card from './Components/DevCard/Dev_Card'
+import Coders from './Components/Coders/Coders'
 import Footer from './Components/Footer/Footer'
 import { faker } from '@faker-js/faker'
 
@@ -15,7 +15,8 @@ function App() {
     <div className="App">
       <Navbar/>
       <Hero/>
-      <Top/> 
+      <Top/>
+      <Coders/>
       <div className="companies">
         <h1 className="title">20k Companies <span>Devhunt</span></h1>
       </div>

@@ -1,0 +1,19 @@
+.coders{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	.coder_list{
+		display: grid;
+		grid-template-columns: auto auto auto;
+		gap:10px;
+
+		.coder_row{
+			display: grid;
+			grid-template-rows: auto auto auto;
+			margin: 20px;
+			gap:20px;
+		}
+	}
+}

@@ -17,8 +17,8 @@ const Dev_Card = () => {
 				<span className="dev_title">Front-end dev</span>
 				<div className="dev_skills">
 					<p>Javascript</p>
-					<p>Javascript</p>
-					<p>Javascript</p>
+					<p>html</p>
+					<p>css</p>
 					<p>Javascript</p>
 					<p>Javascript</p>
 				</div>
