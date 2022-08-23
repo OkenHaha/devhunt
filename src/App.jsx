@@ -3,12 +3,11 @@ import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
 import Top from './Components/Top_devs/Top'
+import Dev_Card from './Components/DevCard/Dev_Card'
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Hero/>
-      <Top/>
+      <Dev_Card/>
     </div>
   )
 }

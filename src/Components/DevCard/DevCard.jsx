@@ -1,6 +1,6 @@
 import React from 'react'
 import './DevCard.scss'
-import { faker } from '@faker-js/faker';
+import { faker } from '@faker-js/faker'
 
 const dev_img = faker.image.people(600, 800)
 const logo = faker.image.avatar()
