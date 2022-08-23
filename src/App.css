@@ -23,3 +23,50 @@
 body{
 	background: var(--white);
 }
+
+.companies{
+	background: url('https://www.w3schools.com/howto/img_lights_wide.jpg') no-repeat;
+	background-size: cover;
+	width: 90%;
+	height: 50vh;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--white);
+	margin-left: 5.5em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 50px;
+}
+.companies h1{
+	font-size: 5em;
+}
+.companies span{
+	color: var(--button);
+}
+.company_list{
+	height: 100vh;
+	width: 100%;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	gap: 10px;
+  background-color: var(--white);
+  padding: 10px;
+
+}
+.company_list > div{	padding: 20px 0;
+}
+.company_list .list_row{
+	display: grid;
+	grid-template-rows: auto auto auto;
+	gap: 20px;
+}
+.company_list .list_row .company_logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.company_list .list_row .company_logo img{
+	border-radius: 50%;
+}

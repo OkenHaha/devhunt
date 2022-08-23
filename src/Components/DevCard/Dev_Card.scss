@@ -1,7 +1,5 @@
 @import '../../App';
-*{
-	border: 3px solid #000;
-}
+
 .dev_card_content{
 	display: inline-block;
 	width: 15rem;
@@ -39,7 +37,7 @@
 	}
 	.dev_skills{
 		display: inline-flex;
-		width: 15rem;
+		max-width: 15rem;
 		height: 100px;
 
 		p{
