@@ -1,0 +1,66 @@
+@import '../../App';
+
+.hero{
+	height: 100vh;
+	width: 100%;
+	background: var(--secondary);
+	color: var(--white);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 5%;
+	top: 0;
+	left: 0;
+	.title{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		h1{
+			font-size: 5rem;
+			width: 60%;
+			text-align: center;
+			span{
+			color: var(--button);
+			}
+		}
+		
+	}
+	.sub-heading{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		p{
+			font-size: 1.5rem;
+			font-weight: normal;
+			text-align:center;
+		}
+	}
+	.cta{
+		margin-top: 20px;
+		display: flex;
+		gap: 40px;
+		input{
+			padding: 15px;
+			width: 25rem;
+			border-radius: 25px;
+			border:1px solid black;
+		}
+		button{
+			background: var(--button);
+			font-weight: bold;
+			padding: 10px;
+			border: none;
+			border-radius:5px;
+			width: 10rem;
+			align-items: center;
+			margin-right: 5px;
+			
+			&:hover{
+				cursor: pointer;
+				content: '';
+			}
+		}
+	}
+}
