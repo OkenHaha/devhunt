@@ -1,6 +1,8 @@
 # devhunt
 Project for Dennis Ivy Hackathon in partnership with HarperDB
 
+###[Incomplete project. Only the homepage is done]
+
 # How to run the code
 1. cd into the folder and run `npm install` to install the dependencies
 2. Start the server by running the command `npm run dev`
